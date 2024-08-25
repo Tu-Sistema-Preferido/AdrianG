@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header p{
+  font-size: 17px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #333;
+}
+nav ul li a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+nav ul li a:hover {
+    color: #CC3E74;
+    transform: scale(0.9);
+}
+a{
+  text-decoration: none;
+  color: #31239f;
+}
+a:hover{
+  color: #CC3E74;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+input[type="text"], input[type="email"], textarea[name="message"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+input[type="text"]:hover, input[type="email"]:hover, textarea[name="message"]:hover{
+    background-color: #707070;
+    font-color: #FFFFFF
+    transform: scale(0.95);
+}
+p{
+    text-align: justify;
+}
+footer p{
+  text-align: center;
+}
+header p{
+  text-align: center;
+}
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+/* Estilo del scrollbar */
+::-webkit-scrollbar {
+width: 12px;
+}
+
+::-webkit-scrollbar-track {
+background: rgba(0, 0, 0, 0.1);
+border-radius: 10%;
+}
+::-webkit-scrollbar-thumb {
+background-color: #333;
+border-radius: 10px;
+border: 3px solid rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: #ff3b2f;
+}
+
+.alert {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid transparent;
+border-radius: 4px;
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+.alert-success {
+color: #155724;
+background-color: #d4edda;
+border-color: #c3e6cb;
+}
+.alert-error {
+color: #721c24;
+background-color: #f8d7da;
+border-color: #f5c6cb;
+}
